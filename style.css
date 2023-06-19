@@ -1,0 +1,65 @@
+body{ /*faz cor de fundo e evita ter fresta  entre o cabeçalho e o topo do site */
+    margin: 0px;
+    background-color: #868686} 
+
+.cabeçalho nav{ /*onde os botoes são feitos */
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+.cabeçalho nav ul { /* evita o cabeçalho de ter margin de conteudo desnesssesaria */
+    margin: 0;
+    padding: 0;
+  }
+  
+.cabeçalho nav ul li { /*faz os botoes ficarem um do lado do outro */
+    display: inline-block;
+  }
+  
+.cabeçalho nav ul li a { /*faz o tamanho do cabeçalho */
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+  
+.cabeçalho nav ul li a:hover { /*faz os botoes mudar de cor */
+    background-color: #555;
+  }
+  .sobremim { /*isso faz toda a seçao da foto e lista, sendo tamanho, arrendondamento das bordas, e distancia entre o conteudo e a borda */
+    margin: 140px;
+    display: flex;
+    background-color: #555;
+    padding: 250px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    max-width: 250px;
+    border-radius: 10px;
+  }
+  
+  .sobremim img { /*faz o tamanho, a borda, e sua foto ser um circulo */
+    width: 185px;
+    height: 215px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border:2px solid #333; /* voce pode mudar o tamanho da borda  da imagem*/
+  }
+  
+  .sobremim ul,li { /* da uma distancia entre linhas pra lista do lado da sua foto */
+    padding-top: 10px; /* voce pode diminuir se achar muito grande*/
+    padding-bottom: 10px;
+  }
+
+
+
+
+  .pé{ /* da tamanho e cor pro pé do site */
+    background-color: #333;
+    width: 1310px;
+    height: 150px;
+  }
+
